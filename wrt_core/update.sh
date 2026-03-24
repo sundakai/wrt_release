@@ -50,7 +50,7 @@ main() {
     change_dnsmasq2full
     fix_mk_def_depends
 
-    install_libubox_cmake_patch
+    # install_libubox_cmake_patch
     update_default_lan_addr
     remove_something_nss_kmod
     update_affinity_script
@@ -77,6 +77,7 @@ main() {
     fix_rust_compile_error
     update_smartdns
     update_diskman
+    update_dockerman
     set_nginx_default_config
     update_uwsgi_limit_as
     update_argon
@@ -96,6 +97,7 @@ main() {
     fix_opkg_check
     fix_quectel_cm
     install_pbr_cmcc
+    fix_pbr_ip_forward
     update_package "runc" "releases" "v1.3.3"
     update_package "containerd" "releases" "v1.7.28"
     update_package "docker" "tags" "v28.5.2"
